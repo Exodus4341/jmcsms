@@ -13,7 +13,7 @@ public class SmsDistributorService extends IntentService {
 
 	private static final long SEND_INTERVAL = 5000;
 	
-	public SmsDistributorService(String name) {
+	public SmsDistributorService() {
 		super("SmsDistributorService");
 		// TODO Auto-generated constructor stub
 	}
